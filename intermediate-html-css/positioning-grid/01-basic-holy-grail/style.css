@@ -12,6 +12,11 @@ html {
   display: grid;
   grid-template-rows: 80px 80px 400px 80px;
   grid-template-columns: 250px 750px;
+  grid-template-areas:
+    "header header"
+    "sidebar nav"
+    "sidebar article"
+    "footer footer";
 }
 
 .container div {
